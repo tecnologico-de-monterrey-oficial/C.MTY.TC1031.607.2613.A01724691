@@ -1,0 +1,11 @@
+¿En qué casos notaste que la versión recursiva fue más lenta o usó más memoria que la iterativa? ¿A qué se debió?
+
+La version recursiva mas rapida fue la fibonacci rescursiva por las repeticiones que hace a la funcion
+
+Para la suma 1..n, sumFormula resuelve en un solo paso lo que a sumIterative y sumRecursive les toma n pasos. ¿Qué te dice esto sobre buscar una fórmula antes de escribir código?
+
+esto demuestra que hacer resusividad conviene mas cuando ya tienes una formula directa, La formula puede resolver problemas mas rapidos con menos operaciones como sum formula que obtiene el resultado en un solo calculo
+
+Si bacteriasRecursive tuviera que calcular n = 100,000 días, ¿qué problema esperarías encontrar y cómo lo resolverías?
+
+Yo creo que sucede stack overflow porque se harian muchisimas llamadas y se llenaria la memoria de la pila se resueleve mejor usando algo iterativo.

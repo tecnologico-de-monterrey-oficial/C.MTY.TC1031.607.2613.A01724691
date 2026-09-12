@@ -1,3 +1,16 @@
-#include <iostream>
-#include <vector>
+¿Qué algoritmos lograste implementar con mayor facilidad gracias al apoyo de Copilot?
 
+Me ayudo hacer mucho los algoritmos mas complicados que para mi fueron merge sort y insertion sort la verdad no entendi muy bien la logica de esos algorithmos entonces me ayudo mucho a entenderlo y poder hacerlos correctamente
+
+¿En qué casos Copilot te dio soluciones correctas de inmediato y en cuáles tuviste que corregir o ajustar la propuesta?
+
+En casi todos los algorithmos cuando pones el nombre Copilot lo trata de hacer solo pero si quieres aprender tienes que borrarlo y aprender hacerlo solo que eso fue en casi todos los casos.
+
+¿Consideras que Copilot te ayudó a ahorrar tiempo o más bien te obligó a pensar más sobre cómo funciona el algoritmo?
+Escribe un ejemplo concreto donde Copilot no resolvió el problema directamente y tuviste que razonar la solución.
+
+Pues aveces te da la solucion copilot pero aun asi ni entiendes bien como funciona y te hace pensar mas en lo que estas haciendo que fue mi caso cuando estaba hacieno insertion sort que en mi mente iva hacer differente pero luego copilot me dio una pista que fue muy differnte alo que yo planeaba hacer
+
+¿Qué hubieras hecho diferente si no hubieras tenido acceso a Copilot para esta actividad?
+
+Teendria que leer mucho mas documentacion a apoyarble de mas libros o videos para poder hacer correctamente los algorithmos

@@ -2,7 +2,7 @@
 Algoritmo:        swapSort
 Archivo:          data/log607-1.txt (desordenado)
 Tamano de datos:  6818 registros
-Tiempo:           0.865223 segundos
+Tiempo:           0.906997 segundos
 Mejor caso:       O(n^2)
 Peor caso:        O(n^2)
 Prediccion:       Lento - O(n2) con datos al azar, hace muchos intercambios
@@ -13,7 +13,7 @@ Comparacion:      SI coincidio con la prediccion
 Algoritmo:        selectionSort
 Archivo:          data/log607-1.txt (desordenado)
 Tamano de datos:  6818 registros
-Tiempo:           0.0517287 segundos
+Tiempo:           0.0544625 segundos
 Mejor caso:       O(n^2)
 Peor caso:        O(n^2)
 Prediccion:       Lento - O(n2) siempre, sin importar el orden del archivo
@@ -24,7 +24,7 @@ Comparacion:      NO coincidio con la prediccion
 Algoritmo:        bubbleSort
 Archivo:          data/log607-1.txt (desordenado)
 Tamano de datos:  6818 registros
-Tiempo:           0.892094 segundos
+Tiempo:           0.979579 segundos
 Mejor caso:       O(n^2)
 Peor caso:        O(n^2)
 Prediccion:       Lento - O(n2) y ademas intercambia elementos vecinos todo el tiempo
@@ -35,7 +35,7 @@ Comparacion:      SI coincidio con la prediccion
 Algoritmo:        insertionSort
 Archivo:          data/log607-1.txt (desordenado)
 Tamano de datos:  6818 registros
-Tiempo:           0.19488 segundos
+Tiempo:           0.219084 segundos
 Mejor caso:       O(n)
 Peor caso:        O(n^2)
 Prediccion:       Lento - cae en su peor caso O(n2) porque los datos estan al azar
@@ -46,7 +46,7 @@ Comparacion:      SI coincidio con la prediccion
 Algoritmo:        mergeSort
 Archivo:          data/log607-1.txt (desordenado)
 Tamano de datos:  6818 registros
-Tiempo:           0.0102836 segundos
+Tiempo:           0.0118434 segundos
 Mejor caso:       O(n log n)
 Peor caso:        O(n log n)
 Prediccion:       Rapido - O(n log n) garantizado en cualquier caso
@@ -57,7 +57,7 @@ Comparacion:      SI coincidio con la prediccion
 Algoritmo:        quickSort
 Archivo:          data/log607-1.txt (desordenado)
 Tamano de datos:  6818 registros
-Tiempo:           0.0042241 segundos
+Tiempo:           0.0051383 segundos
 Mejor caso:       O(n log n)
 Peor caso:        O(n^2)
 Prediccion:       Rapido - O(n log n) en promedio con datos al azar
@@ -68,7 +68,7 @@ Comparacion:      SI coincidio con la prediccion
 Algoritmo:        shellSort
 Archivo:          data/log607-1.txt (desordenado)
 Tamano de datos:  6818 registros
-Tiempo:           0.0067103 segundos
+Tiempo:           0.0071325 segundos
 Mejor caso:       O(n log n)
 Peor caso:        O(n^2)
 Prediccion:       Rapido - usa saltos grandes, mejora mucho al insertion sort
@@ -79,7 +79,7 @@ Comparacion:      SI coincidio con la prediccion
 Algoritmo:        swapSort
 Archivo:          data/log607-2.txt (casi ordenado)
 Tamano de datos:  6818 registros
-Tiempo:           0.0126211 segundos
+Tiempo:           0.0152887 segundos
 Mejor caso:       O(n^2)
 Peor caso:        O(n^2)
 Prediccion:       Lento - compara todos los pares aunque ya este ordenado
@@ -90,7 +90,7 @@ Comparacion:      NO coincidio con la prediccion
 Algoritmo:        selectionSort
 Archivo:          data/log607-2.txt (casi ordenado)
 Tamano de datos:  6818 registros
-Tiempo:           0.0511131 segundos
+Tiempo:           0.0528643 segundos
 Mejor caso:       O(n^2)
 Peor caso:        O(n^2)
 Prediccion:       Lento - selection sort no se beneficia de datos casi ordenados
@@ -101,7 +101,7 @@ Comparacion:      NO coincidio con la prediccion
 Algoritmo:        bubbleSort
 Archivo:          data/log607-2.txt (casi ordenado)
 Tamano de datos:  6818 registros
-Tiempo:           0.0123029 segundos
+Tiempo:           0.0149053 segundos
 Mejor caso:       O(n^2)
 Peor caso:        O(n^2)
 Prediccion:       Lento - bubble sort sin bandera recorre todo aunque ya este ordenado
@@ -112,7 +112,7 @@ Comparacion:      NO coincidio con la prediccion
 Algoritmo:        insertionSort
 Archivo:          data/log607-2.txt (casi ordenado)
 Tamano de datos:  6818 registros
-Tiempo:           0.0010489 segundos
+Tiempo:           0.0008958 segundos
 Mejor caso:       O(n)
 Peor caso:        O(n^2)
 Prediccion:       Rapido - mejor caso O(n) porque el archivo ya viene casi ordenado
@@ -123,7 +123,7 @@ Comparacion:      SI coincidio con la prediccion
 Algoritmo:        mergeSort
 Archivo:          data/log607-2.txt (casi ordenado)
 Tamano de datos:  6818 registros
-Tiempo:           0.0120589 segundos
+Tiempo:           0.0110842 segundos
 Mejor caso:       O(n log n)
 Peor caso:        O(n log n)
 Prediccion:       Rapido - O(n log n) garantizado en cualquier caso
@@ -134,7 +134,7 @@ Comparacion:      SI coincidio con la prediccion
 Algoritmo:        quickSort
 Archivo:          data/log607-2.txt (casi ordenado)
 Tamano de datos:  6818 registros
-Tiempo:           0.0019736 segundos
+Tiempo:           0.0024095 segundos
 Mejor caso:       O(n log n)
 Peor caso:        O(n^2)
 Prediccion:       Rapido - el pivote de en medio evita el peor caso
@@ -145,7 +145,7 @@ Comparacion:      SI coincidio con la prediccion
 Algoritmo:        shellSort
 Archivo:          data/log607-2.txt (casi ordenado)
 Tamano de datos:  6818 registros
-Tiempo:           0.0044181 segundos
+Tiempo:           0.0052111 segundos
 Mejor caso:       O(n log n)
 Peor caso:        O(n^2)
 Prediccion:       Rapido - los saltos terminan rapido si ya hay orden previo

@@ -110,4 +110,34 @@ void guardarArchivo(string nombreArchivo, vector<Registro> &datos) {
     archivo.close();
 }
 
+long long llaveDesdeTexto(string texto) {
+    Registro r;
+    string horaCompleta;
+    stringstream ss(texto);
+
+    ss >> r.mes >> r.dia >> r.anio >> horaCompleta;
+    if (ss.fail()) {
+        return -1;
+    }
+    if (mesANumero(r.mes) == 0) {
+        return -1;
+    }
+    if (r.dia < 1 || r.dia > 31) {
+        return -1;
+    }
+
+    for (int i = 0; i < (int)horaCompleta.size(); i++) {
+        if (horaCompleta[i] == ':') {
+            horaCompleta[i] = ' ';
+        }
+    }
+    stringstream sh(horaCompleta);
+    sh >> r.hora >> r.minuto >> r.segundo;
+    if (sh.fail()) {
+        return -1;
+    }
+
+    return calcularLlave(r);
+}
+
 #endif

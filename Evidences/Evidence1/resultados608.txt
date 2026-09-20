@@ -1,0 +1,154 @@
+-------------------------------------------
+Algoritmo:        swapSort
+Archivo:          data/log607-1.txt (desordenado)
+Tamano de datos:  6818 registros
+Tiempo:           0.865223 segundos
+Mejor caso:       O(n^2)
+Peor caso:        O(n^2)
+Prediccion:       Lento - O(n2) con datos al azar, hace muchos intercambios
+Resultado real:   Lento
+Comparacion:      SI coincidio con la prediccion
+-------------------------------------------
+-------------------------------------------
+Algoritmo:        selectionSort
+Archivo:          data/log607-1.txt (desordenado)
+Tamano de datos:  6818 registros
+Tiempo:           0.0517287 segundos
+Mejor caso:       O(n^2)
+Peor caso:        O(n^2)
+Prediccion:       Lento - O(n2) siempre, sin importar el orden del archivo
+Resultado real:   Rapido
+Comparacion:      NO coincidio con la prediccion
+-------------------------------------------
+-------------------------------------------
+Algoritmo:        bubbleSort
+Archivo:          data/log607-1.txt (desordenado)
+Tamano de datos:  6818 registros
+Tiempo:           0.892094 segundos
+Mejor caso:       O(n^2)
+Peor caso:        O(n^2)
+Prediccion:       Lento - O(n2) y ademas intercambia elementos vecinos todo el tiempo
+Resultado real:   Lento
+Comparacion:      SI coincidio con la prediccion
+-------------------------------------------
+-------------------------------------------
+Algoritmo:        insertionSort
+Archivo:          data/log607-1.txt (desordenado)
+Tamano de datos:  6818 registros
+Tiempo:           0.19488 segundos
+Mejor caso:       O(n)
+Peor caso:        O(n^2)
+Prediccion:       Lento - cae en su peor caso O(n2) porque los datos estan al azar
+Resultado real:   Lento
+Comparacion:      SI coincidio con la prediccion
+-------------------------------------------
+-------------------------------------------
+Algoritmo:        mergeSort
+Archivo:          data/log607-1.txt (desordenado)
+Tamano de datos:  6818 registros
+Tiempo:           0.0102836 segundos
+Mejor caso:       O(n log n)
+Peor caso:        O(n log n)
+Prediccion:       Rapido - O(n log n) garantizado en cualquier caso
+Resultado real:   Rapido
+Comparacion:      SI coincidio con la prediccion
+-------------------------------------------
+-------------------------------------------
+Algoritmo:        quickSort
+Archivo:          data/log607-1.txt (desordenado)
+Tamano de datos:  6818 registros
+Tiempo:           0.0042241 segundos
+Mejor caso:       O(n log n)
+Peor caso:        O(n^2)
+Prediccion:       Rapido - O(n log n) en promedio con datos al azar
+Resultado real:   Rapido
+Comparacion:      SI coincidio con la prediccion
+-------------------------------------------
+-------------------------------------------
+Algoritmo:        shellSort
+Archivo:          data/log607-1.txt (desordenado)
+Tamano de datos:  6818 registros
+Tiempo:           0.0067103 segundos
+Mejor caso:       O(n log n)
+Peor caso:        O(n^2)
+Prediccion:       Rapido - usa saltos grandes, mejora mucho al insertion sort
+Resultado real:   Rapido
+Comparacion:      SI coincidio con la prediccion
+-------------------------------------------
+-------------------------------------------
+Algoritmo:        swapSort
+Archivo:          data/log607-2.txt (casi ordenado)
+Tamano de datos:  6818 registros
+Tiempo:           0.0126211 segundos
+Mejor caso:       O(n^2)
+Peor caso:        O(n^2)
+Prediccion:       Lento - compara todos los pares aunque ya este ordenado
+Resultado real:   Rapido
+Comparacion:      NO coincidio con la prediccion
+-------------------------------------------
+-------------------------------------------
+Algoritmo:        selectionSort
+Archivo:          data/log607-2.txt (casi ordenado)
+Tamano de datos:  6818 registros
+Tiempo:           0.0511131 segundos
+Mejor caso:       O(n^2)
+Peor caso:        O(n^2)
+Prediccion:       Lento - selection sort no se beneficia de datos casi ordenados
+Resultado real:   Rapido
+Comparacion:      NO coincidio con la prediccion
+-------------------------------------------
+-------------------------------------------
+Algoritmo:        bubbleSort
+Archivo:          data/log607-2.txt (casi ordenado)
+Tamano de datos:  6818 registros
+Tiempo:           0.0123029 segundos
+Mejor caso:       O(n^2)
+Peor caso:        O(n^2)
+Prediccion:       Lento - bubble sort sin bandera recorre todo aunque ya este ordenado
+Resultado real:   Rapido
+Comparacion:      NO coincidio con la prediccion
+-------------------------------------------
+-------------------------------------------
+Algoritmo:        insertionSort
+Archivo:          data/log607-2.txt (casi ordenado)
+Tamano de datos:  6818 registros
+Tiempo:           0.0010489 segundos
+Mejor caso:       O(n)
+Peor caso:        O(n^2)
+Prediccion:       Rapido - mejor caso O(n) porque el archivo ya viene casi ordenado
+Resultado real:   Rapido
+Comparacion:      SI coincidio con la prediccion
+-------------------------------------------
+-------------------------------------------
+Algoritmo:        mergeSort
+Archivo:          data/log607-2.txt (casi ordenado)
+Tamano de datos:  6818 registros
+Tiempo:           0.0120589 segundos
+Mejor caso:       O(n log n)
+Peor caso:        O(n log n)
+Prediccion:       Rapido - O(n log n) garantizado en cualquier caso
+Resultado real:   Rapido
+Comparacion:      SI coincidio con la prediccion
+-------------------------------------------
+-------------------------------------------
+Algoritmo:        quickSort
+Archivo:          data/log607-2.txt (casi ordenado)
+Tamano de datos:  6818 registros
+Tiempo:           0.0019736 segundos
+Mejor caso:       O(n log n)
+Peor caso:        O(n^2)
+Prediccion:       Rapido - el pivote de en medio evita el peor caso
+Resultado real:   Rapido
+Comparacion:      SI coincidio con la prediccion
+-------------------------------------------
+-------------------------------------------
+Algoritmo:        shellSort
+Archivo:          data/log607-2.txt (casi ordenado)
+Tamano de datos:  6818 registros
+Tiempo:           0.0044181 segundos
+Mejor caso:       O(n log n)
+Peor caso:        O(n^2)
+Prediccion:       Rapido - los saltos terminan rapido si ya hay orden previo
+Resultado real:   Rapido
+Comparacion:      SI coincidio con la prediccion
+-------------------------------------------
